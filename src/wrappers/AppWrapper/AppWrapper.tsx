@@ -1,13 +1,8 @@
-import React, { PureComponent } from "react";
+import React from "react";
+import "src/styles/global.css";
 
-interface AppWrapperProps {
-  children: React.ReactChild;
-}
-
-class AppWrapper extends PureComponent<AppWrapperProps> {
-  render(): React.ReactNode {
-    return <>{this.props.children}</>;
-  }
-}
+const AppWrapper = (props: { children: React.ReactNode }) => {
+  return <>{props.children}</>;
+};
 
 export default AppWrapper;
