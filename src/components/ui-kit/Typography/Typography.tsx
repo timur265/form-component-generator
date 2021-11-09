@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Typography.module.css";
+import classes from "./Typography.css";
 import cn from "clsx";
 
 type TypographyProps = {
@@ -16,7 +16,7 @@ const Typography = (props: TypographyProps) => {
   const Component = variant;
 
   const getClassName = (): string => {
-    const { fontWeight, color, variant, className } = props;
+    const { color, variant, className } = props;
     return cn({
       [classes.common]: true,
       [classes.p]: variant === "p",
@@ -30,6 +30,7 @@ const Typography = (props: TypographyProps) => {
       [classes.span]: variant === "span",
       [classes.white]: color == "white",
       [classes.black]: color == "black",
+      [classes.navbarLink]: className == "navbarLink",
     });
   };
 
