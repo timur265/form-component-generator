@@ -1,6 +1,6 @@
 {
   "name": "form_generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "npm": ">=6.14.0"
   },
