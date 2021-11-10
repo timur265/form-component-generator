@@ -2,11 +2,11 @@ import Button from "@material-ui/core/Button";
 import React, { Dispatch, SetStateAction, useState } from "react";
 import CheckboxField from "src/components/ui-kit/CheckboxField";
 import InputField from "src/components/ui-kit/InputField";
-import RadioField from "src/components/ui-kit/RadioField/RadioField";
 import SelectField from "src/components/ui-kit/SelectField";
 import { v4 as uuidv4 } from "uuid";
 import classes from "./FormGenerator.css";
 import cn from "clsx";
+import RadioField from "src/components/ui-kit/RadioField";
 
 type FormGeneratorProps = {
   formConfigValues: [];
