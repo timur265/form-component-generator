@@ -15,6 +15,10 @@
   --color-background: #fff;
   --color-danger: #b71c1c;
 
+  /* Home Page */
+  --color-bg-upload-btn: #03a84e;
+  --color-bg-upload-active-btn: #066a34;
+
   /* fonts */
   --font-family-primary: helvetica neue, helvetica, arial, sans-serif;
   --font-family-secondary: georgia, times new roman, times, serif;
