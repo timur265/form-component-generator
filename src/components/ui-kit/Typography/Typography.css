@@ -1,6 +1,6 @@
 .common {
   margin-top: 0;
-  color: var(--color-text-default);
+  color: var(--color-text);
   font-family: var(--font-family-primary);
   letter-spacing: var(--letter-spacing-base);
   line-height: var(--line-height-base);

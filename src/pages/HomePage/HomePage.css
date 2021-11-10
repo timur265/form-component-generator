@@ -1,0 +1,36 @@
+.inputFile {
+  display: none;
+}
+
+.uploadBtn {
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  background-color: var(--color-bg-upload-btn);
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.uploadBtn:hover,
+.uploadBtn:focus,
+.uploadBtn:active {
+  background-color: var(--color-bg-upload-active-btn);
+}
+
+.uploadBtn span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 500px;
+  padding: 20px 50px;
+  background-color: var(--color-background);
+  box-shadow: 0 0 8px 0 var(--color-border-modal);
+  overflow-y: auto;
+  transform: translate(-50%, -50%);
+}
